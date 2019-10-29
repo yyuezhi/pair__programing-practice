@@ -1,6 +1,7 @@
 def computeSimple(string):
     sum = 0
-    # start writing here
+    for i in string:
+        sum+=ord(i)
     
 
     return sum
